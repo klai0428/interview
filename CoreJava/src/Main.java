@@ -3,8 +3,13 @@ import supermarket.Apple;
 import supermarket.Mango;
 import supermarket.Strawberry;
 import supermarket.ShoppingCart;
+/**
 
+ * @author Ka Wai Lai
 
+ * @Date 2024-09-10
+
+ */
 public class Main {
     public static void main(String[] args) {
         //顾客 A
@@ -42,7 +47,7 @@ public class Main {
         System.out.println("Customer D Shopping Cart Checkout... \t");
         ShoppingCart cart4 = new ShoppingCart();
         Fruit apple4 = new Apple("Golden Apple", 2, 8, 1.0);
-        Fruit strawberry4 = new Strawberry("Small Strawberry", 2, 13, 0.8);
+        Fruit strawberry4 = new Strawberry("Small Strawberry", 2, 13, 0.8); //Assumption: discount for Strawberry continues
         Fruit mango4 = new Mango("Big Mango", 5, 20, 1.0);
         cart4.addItem(apple4);
         cart4.addItem(strawberry4);
