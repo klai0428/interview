@@ -3,7 +3,7 @@ package supermarket;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShoppingCart implements Cart {
+public class ShoppingCart {
     private List<CartItem> items = new ArrayList<>();
 
     public boolean addItem(CartItem item) {

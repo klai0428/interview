@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Total cart value before discounts \t" + cart2.totalCartValue());
 
         //顾客 C
-        System.out.println("Customer B Shopping Cart Checkout... \t");
+        System.out.println("Customer C Shopping Cart Checkout... \t");
         ShoppingCart cart3 = new ShoppingCart();
         Fruit apple3 = new Apple("Golden Apple", 2, 8, 1.0);
         Fruit strawberry3 = new Strawberry("Small Strawberry", 2, 13, 0.8);
@@ -39,7 +39,7 @@ public class Main {
         System.out.println("Total cart value after discounts \t" + cart3.totalCartValue());
 
         //顾客 D
-        System.out.println("Customer B Shopping Cart Checkout... \t");
+        System.out.println("Customer D Shopping Cart Checkout... \t");
         ShoppingCart cart4 = new ShoppingCart();
         Fruit apple4 = new Apple("Golden Apple", 2, 8, 1.0);
         Fruit strawberry4 = new Strawberry("Small Strawberry", 2, 13, 0.8);
